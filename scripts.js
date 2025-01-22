@@ -8,5 +8,5 @@ function handleRedirect(discountCode, targetUrl) {
     document.body.removeChild(tempInput);
 
     // 跳轉到目標網址
-    window.location.href = targetUrl;
+    window.location.href = https://s.shopee.tw/1LQJsF2aZP;
 }

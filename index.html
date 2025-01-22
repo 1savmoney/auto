@@ -3,34 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>多折扣碼分享</title>
+    <title>折扣碼跳轉頁</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>蝦皮折扣碼列表</h1>
-    <p>點擊下方的按鈕即可跳轉到對應的優惠頁面！</p>
+    <h1>蝦皮優惠活動</h1>
+    <p>點擊下方的按鈕即可跳轉到優惠頁面，並自動複製折扣碼！</p>
 
-    <div class="code-container">
-        <div class="code-item">
-            <input type="text" value="CODE2025A" id="code1" readonly>
-            <button onclick="redirectTo('https://example.com/promo1')">折扣碼 1</button>
-        </div>
-        <div class="code-item">
-            <input type="text" value="CODE2025B" id="code2" readonly>
-            <button onclick="redirectTo('https://example.com/promo2')">折扣碼 2</button>
-        </div>
-        <div class="code-item">
-            <input type="text" value="CODE2025C" id="code3" readonly>
-            <button onclick="redirectTo('https://example.com/promo3')">折扣碼 3</button>
-        </div>
-        <div class="code-item">
-            <input type="text" value="CODE2025D" id="code4" readonly>
-            <button onclick="redirectTo('https://example.com/promo4')">折扣碼 4</button>
-        </div>
-        <div class="code-item">
-            <input type="text" value="CODE2025E" id="code5" readonly>
-            <button onclick="redirectTo('https://example.com/promo5')">折扣碼 5</button>
-        </div>
+    <div class="button-container">
+        <button onclick="handleRedirect('CODE2025A', 'https://example.com/promo1')">折扣碼 1</button>
+        <button onclick="handleRedirect('CODE2025B', 'https://example.com/promo2')">折扣碼 2</button>
+        <button onclick="handleRedirect('CODE2025C', 'https://example.com/promo3')">折扣碼 3</button>
+        <button onclick="handleRedirect('CODE2025D', 'https://example.com/promo4')">折扣碼 4</button>
+        <button onclick="handleRedirect('CODE2025E', 'https://example.com/promo5')">折扣碼 5</button>
     </div>
 
     <script src="script.js"></script>
